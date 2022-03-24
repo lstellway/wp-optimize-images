@@ -9,7 +9,7 @@ Author: Logan Stellway
 Author URI: https://loganstellway.com
 */
 
-namespace LStellway\Uploads\Optimize;
+namespace LStellway\Uploads;
 
 use ImageOptimizer\Optimizer;
 use ImageOptimizer\OptimizerFactory;
