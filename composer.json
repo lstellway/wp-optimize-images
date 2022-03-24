@@ -6,7 +6,7 @@
     "type": "wordpress-muplugin",
     "autoload": {
         "psr-4": {
-            "LStellway\\Uploads\\Optimize": "src/"
+            "LStellway\\Uploads\\Optimize\\": "src/"
         }
     },
     "require": {
