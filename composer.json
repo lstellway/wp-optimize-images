@@ -1,6 +1,6 @@
 {
     "name": "lstellway/wp-optimize-images",
-    "version": "0.1.2",
+    "version": "0.1.1",
     "description": "WordPress plugin to optimize uploaded images",
     "license": "MIT",
     "type": "wordpress-muplugin",
