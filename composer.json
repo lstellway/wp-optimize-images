@@ -4,6 +4,11 @@
     "description": "WordPress plugin to optimize uploaded images",
     "license": "MIT",
     "type": "wordpress-muplugin",
+    "autoload": {
+        "psr-4": {
+            "LStellway\\Uploads\\Optimize": "src/"
+        }
+    },
     "require": {
         "composer/installers": "~1.0",
         "ps/image-optimizer": "^2.0"

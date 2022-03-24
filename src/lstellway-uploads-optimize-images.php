@@ -9,12 +9,12 @@ Author: Logan Stellway
 Author URI: https://loganstellway.com
 */
 
-namespace LStellway\Uploads;
+namespace LStellway\Uploads\Optimize;
 
 use ImageOptimizer\Optimizer;
 use ImageOptimizer\OptimizerFactory;
 
-if (!defined('ABSPATH') || !is_blog_installed()) {
+if (!defined('ABSPATH') || !function_exists('is_blog_installed') || !is_blog_installed()) {
     return;
 }
 
